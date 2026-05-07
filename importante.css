@@ -1,0 +1,47 @@
+@keyframes presentacion{
+    0%{
+        background-size: 0%;
+    }
+    20%{
+         background-size: 5%;
+    }
+        40%{
+          background-size: 0%;
+    }
+        60%{
+         background-size: 10%;
+    }
+        80%{
+          background-size: 0%;
+    }
+    100%{
+        background-size: 25%;
+    }
+}
+
+@keyframes slowappear{
+    0%{
+        opacity: 0%;
+    }
+    75%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+body{
+    background-image: url(paginaimportante/gerente.jpeg);
+    background-size: 25%;
+    animation-name: presentacion;
+    animation-duration: 2s;
+}
+
+.navbar{
+    animation-name: slowappear;
+    animation-duration: 3s;
+    background-color: rgb(0, 92, 0);
+}

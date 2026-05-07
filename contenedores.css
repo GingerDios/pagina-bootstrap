@@ -1,0 +1,81 @@
+@keyframes appears{
+    from{
+        margin-left: 70vw;
+    }
+    to{
+        margin-left: 0vw;
+    }   
+}
+
+@keyframes appearsdelay1{
+    0%{margin-left: 70vw;}
+    10%{
+            margin-left: 70vw;
+    }
+    100%{
+        margin-left: 0vw;
+    }   
+}
+
+@keyframes appears2{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }  
+    
+
+}
+
+
+
+.carousel{
+    display: flex;
+    width: 50vw;
+
+    justify-self: center;
+    margin-bottom: 50px;
+    animation-name: appears;
+    animation-duration:1s;
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 500px;
+    animation-name:appearsdelay1;
+    animation-duration: 1s;
+
+    
+}
+.texto{
+    animation-name: appears2;
+    animation-duration: 1s;
+}
+.carouselmarco{
+  
+    background: linear-gradient(to right, rgb(0, 155, 0), rgb(7, 210, 0),rgb(0, 155, 0));
+    width: 100vw;
+    height: auto;
+}
+.navbar{
+    background-color: rgb(0, 92, 0);
+}
+.buscador{
+    display: flex;
+    justify-self: flex-end;
+}
+.categoria{
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+
+    height: 6vw;
+    width: auto;
+    background-color: rgb(0, 92, 0);
+    color: blanchedalmond;
+   
+    
+}
