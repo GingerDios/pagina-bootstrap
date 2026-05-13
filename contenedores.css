@@ -29,6 +29,10 @@
 }
 
 
+.btn:hover{
+    background-color: darkblue;
+    transition: .2s ;
+}
 
 .carousel{
     display: flex;
